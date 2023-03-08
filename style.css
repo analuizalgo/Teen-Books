@@ -1,0 +1,34 @@
+body, ul, li, p{
+    margin: Opx;
+    padding: Opx;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: arial;
+}
+
+/* Define o tamanho da imagem do logo - largura */
+.logo{
+    width: 200px;
+}
+
+/* Define as características da TAG ancor */
+a{
+    text-decoration: none;    /* tira o sublinhado do link */
+    color: white;           /* cor do texto */
+}
+
+/* Define as características do header */
+.header{
+    /* cor de fundo */
+    background-color: black;
+    /* display flexível */
+    display: flex;
+    /* organizado em linha */
+    flex-wrap: wrap;
+    /* espaçamento entre os textos */
+    justify-content: space-between;
+    /* centralizado */
+    align-items: center;
+    /* "margem interna" */
+    
+}

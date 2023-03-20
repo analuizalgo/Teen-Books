@@ -20,7 +20,7 @@ a{
 /* Define as características do header */
 .header{
     /* cor de fundo */
-    background-color: black;
+    background-color: rgb(252, 167, 203);
     /* display flexível */
     display: flex;
     /* organizado em linha */
@@ -31,4 +31,20 @@ a{
     align-items: center;
     /* "margem interna" */
     
+
+}
+
+.menu{ 
+    display: flex;
+}
+
+/*distancia entre as palavras do link */
+.menu li{ 
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+    /* background-color:
 }

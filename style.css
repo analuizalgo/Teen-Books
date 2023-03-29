@@ -48,3 +48,33 @@ a{
     padding: 10px;
     /* background-color: #5e17eb; */
 }
+
+/* *************************** FAZENDO CORPO DE SITE ********************** */
+
+.flex{
+    min-height: 100vh;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+
+}
+/* ajustando o tamanho da imagem */
+.imagem{
+    width: 400px;
+    height: auto;
+}
+
+/* ajustando os itens da página */
+
+.item{
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: flex-start;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.paragrafo{
+    padding: 10px;
+    text-align: justify;
+}

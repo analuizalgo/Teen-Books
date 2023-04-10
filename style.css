@@ -59,6 +59,7 @@ a{
 
 }
 /* ajustando o tamanho da imagem */
+
 .imagem{
     width: 400px;
     height: auto;
@@ -77,4 +78,25 @@ a{
 .paragrafo{
     padding: 10px;
     text-align: justify;
+}
+/* Ajustando o cabeçalho */
+
+.footer{
+    background-color: rgb(241, 234, 234);
+    padding: 15px;
+    color: black;
+    font-size: 30px;
+}
+
+.redessociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redelogo{
+    margin: 10px;
+    padding: 5px;
+    width: 30px;
+    height: auto;
 }

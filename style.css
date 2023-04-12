@@ -20,7 +20,7 @@ a{
 /* Define as características do header */
 .header{
     /* cor de fundo */
-    background-color: rgb(252, 167, 203);
+    background-color: rgb(255, 174, 208);
     /* display flexível */
     display: flex;
     /* organizado em linha */
@@ -53,7 +53,7 @@ a{
 
 .flex{
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: rgb(238, 198, 205);
     display: flex;
     flex-direction: column;
 
